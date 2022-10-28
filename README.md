@@ -1,2 +1,2 @@
-# Portifolio
-Just a portifolio. 
+# Portfolio
+Just a portfolio. 
