@@ -1,0 +1,19 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-size: var(--f-size-menu);
+    color: var(--f-size-menu);
+    font-weight: var(--f-size-menu);
+    line-height: 19px;
+}
+
+.menu__logo {
+    list-style: none;
+}

@@ -6,9 +6,24 @@
 
 :root {
     font-size: 62.5%;
+    --f-size-menu: 1.6rem;
+    --f-color-menu: rgba(70, 70, 70, 1);
 }
 
 body {
     font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
 }
 
+.portfolio {
+    background: rgba(245, 245, 245, 1);
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    margin: 0 auto;
+    max-width: 1440px;
+}

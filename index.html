@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lionel | Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu.css">
 </head>
-<body>
-    <header>
+<body class="portfolio">
+    <header class="header">
         <nav>
-            <ul>
-                <li>Lionel Miranda</li>
-                <li>Sobre mim</li>
-                <li>Skills</li>
-                <li>Hobbies</li>
-                <li>Formação</li>
-                <li>Projetos</li>
-                <li>contatolionelsu@gmail.com</li>
+            <ul class="menu">
+                <ul>
+                    <li class="menu__logo">
+                        <a href="#" class="menu__link">Lionel Miranda</a>
+                    </li>
+                </ul>
+                
+                <li>
+                    <a href="#" class="menu__link">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link">Skills</a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link">Hobbies</a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link">Formação</a>
+                </li>
+                <li>
+                    <a href="#" class="menu__link">Projetos</a>
+                </li>
+                <li>
+                    <a href="mailto:contatolionelsu@gmail.com" class="menu__link">contatolionelsu@gmail.com</a>
+                </li>
             </ul>
         </nav>
 
-        <h1>Olá, meu nome é Fulana de Tal e construo páginas web</h1>
-        <p>Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</p>
+        <h1>Olá, meu nome é Lionel Miranda e desenvolvo softwares para solucionar problemas</h1>
+        <p>Eu sou formado em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</p>
         <div>Minha foto</div>
         <ul>
             <li>Github</li>
@@ -30,59 +51,64 @@
             <li>Curriculo</li>
         </ul>
     </header>
-    <main>
-        <h3>Sobre mim</h3>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.
-        </p>
+    <main class="main">
+            <h3>Sobre mim</h3>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
 
-        <img>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.
+            </p>
 
-    <section>
-        <h4>Skills</h4>
-        <h4>Hobbies</h4>
-        <h4>Formação acadêmica</h4>
-    </section>
+            <img>
 
-    <section>
-        <h4>Experiência profissional</h4>
-    </section>
+        <section>
+            <h4>Skills</h4>
+            <h4>Hobbies</h4>
+            <h4>Formação acadêmica</h4>
+        </section>
 
+        <section>
+            <h4>Experiência profissional</h4>
+        </section>
+
+        
+
+        <section>
+            <h4>Contato</h4>
+            <p>
+            Quer entrar em contato comigo?
+            Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+            </p>
+
+            <fieldset>
+                <form action="#">
+
+                    <div>
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="assunto">Assunto</label>
+                        <input type="text" name="assunto" id="assunto" required>
+                        <textarea name="message" id="assunto" cols="30" rows="10" required></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+
+                </form>
+            </fieldset>
+
+        </section>
     </main>
 
-    <section>
-        <h4>Contato</h4>
-        <p>
-        Quer entrar em contato comigo?
-        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
-        </p>
-        <fieldset>
-            <form action="#">
-                <div>
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name" required>
-                </div>
-                <div>
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div>
-                    <label for="assunto">Assunto</label>
-                    <input type="text" name="assunto" id="assunto" required>
-                    <textarea name="message" id="assunto" cols="30" rows="10" required></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" value="Submit">
-                </div>
-
-            </form>
-        </fieldset>
-    </section>
-
-    <footer>
+    <footer class="footer">
         <p>Desenvolvido com amor por Lionel Miranda</p>
         <p>2022</p>
     </footer>
