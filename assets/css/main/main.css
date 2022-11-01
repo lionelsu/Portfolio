@@ -1,0 +1,31 @@
+.main-block {
+    display: grid;
+    gap: 8.8rem;
+}
+
+.main-block-card {
+    display: grid;
+    gap: 3.2rem;
+}
+
+.main-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 17.6rem);
+    gap: 1.6rem;
+}
+
+.main__title {
+    text-align: center;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    color: var(--color-gray);
+}
+
+.main-skills {
+    border-radius: .8rem;
+}
+
+.main-skills__hobbie {
+    width: 17.6rem;
+    height: 17.6rem;
+}
