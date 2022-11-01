@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 1.7rem;
+    gap: 2.4rem;
+}
+
+.header-about__h1 {
+    font-size: 5.2rem;
+    font-weight: 700;
+    color: var(--color-gray);
+    line-height: 6.1rem;
+}
+
+.header-about__p {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    color: var(--color-gray);
+}
+
+.header-nav-menu {
+    display: flex;
+    list-style: none;
+    font-size: var(--f-size-16);
+    gap: 3.2rem;
+}
+
+.header-nav-menu-list {
+    line-height: 1.9rem;
+}
+
+.header-nav-menu-list__link {
+    text-decoration: none;
+    color: var(--color-gray);
+    align-self: center;
+}
+
+.header__avatar {
+    width: 36.8rem;
+    height: 36.8rem;
+    border-radius: 50%;
+}

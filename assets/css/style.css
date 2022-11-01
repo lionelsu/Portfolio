@@ -1,3 +1,6 @@
+@import url("./menu/menu.css");
+@import url("./header/header.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +9,13 @@
 
 :root {
     font-size: 62.5%;
-    --f-size-menu: 1.6rem;
-    --f-color-menu: rgba(70, 70, 70, 1);
+    --f-size-16: 1.6rem;
+    --color-gray: rgba(70, 70, 70, 1);
+    --color-white: rgba(245, 245, 245, 1);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -16,14 +24,18 @@ body {
 }
 
 .portfolio {
-    background: rgba(245, 245, 245, 1);
+    background: var(--color-white);
     display: grid;
     grid-template-areas: 
+        "nav"
         "header"
+        "about"
         "main"
-        "footer";
+        "contact";
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1104px;
+    padding: 32px;
+    gap: 32px;
 }

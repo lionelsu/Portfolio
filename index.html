@@ -8,51 +8,78 @@
     <title>Lionel | Portfólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/menu/menu.css">
 </head>
 <body class="portfolio">
-    <header class="header">
-        <nav>
-            <ul class="menu">
-                <ul>
-                    <li class="menu__logo">
-                        <a href="#" class="menu__link">Lionel Miranda</a>
-                    </li>
-                </ul>
-                
-                <li>
-                    <a href="#" class="menu__link">Sobre mim</a>
-                </li>
-                <li>
-                    <a href="#" class="menu__link">Skills</a>
-                </li>
-                <li>
-                    <a href="#" class="menu__link">Hobbies</a>
-                </li>
-                <li>
-                    <a href="#" class="menu__link">Formação</a>
-                </li>
-                <li>
-                    <a href="#" class="menu__link">Projetos</a>
-                </li>
-                <li>
-                    <a href="mailto:contatolionelsu@gmail.com" class="menu__link">contatolionelsu@gmail.com</a>
+    
+    <nav>
+        <ul class="menu">
+            <ul>
+                <li class="menu__logo">
+                    <img class="menu-image__logo" src="./assets/image/logo/phi.png" alt="logo">
+                    <a href="#" class="menu__link">Lionel Miranda</a>
                 </li>
             </ul>
-        </nav>
-
-        <h1>Olá, meu nome é Lionel Miranda e desenvolvo softwares para solucionar problemas</h1>
-        <p>Eu sou formado em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</p>
-        <div>Minha foto</div>
-        <ul>
-            <li>Github</li>
-            <li>Linkedin</li>
-            <li>Instagran</li>
-            <li>Curriculo</li>
+            
+            <li>
+                <a href="#about__link" class="menu__link">Sobre mim</a>
+            </li>
+            <li>
+                <a href="#" class="menu__link">Skills</a>
+            </li>
+            <li>
+                <a href="#" class="menu__link">Hobbies</a>
+            </li>
+            <li>
+                <a href="#" class="menu__link">Formação</a>
+            </li>
+            <li>
+                <a href="#" class="menu__link">Projetos</a>
+            </li>
+            <li>
+                <a href="mailto:contatolionelsu@gmail.com" class="menu-email__link">contatolionelsu@gmail.com</a>
+            </li>
         </ul>
+    </nav>
+
+    <header>
+        <section class="header">
+            <div class="header-about">
+                <h1 class="header-about__h1">Olá, meu nome é Lionel Miranda e desenvolvo softwares para solucionar problemas</h1>
+
+                <p class="header-about__p">Eu sou formado em Análise e Desenvolvimento de Sistemas e atualmente estou participando e participei de projetos de capacitação em programação como o RocketSeat - Explorer, Oracle ONE da Alura.</p>
+
+                <ul class="header-nav-menu">
+                    <li class="header-nav-menu-list">
+                        <a href="https://github.com/lionelsu" target="_blank" class="header-nav-menu-list__link">Github
+                            <img src="./assets/image/seta/seta.svg" class="header-nav-menu__image" alt="seta">
+                        </a>
+                    </li>
+                    
+
+                    <li class="header-nav-menu-list">
+                        <a href="https://www.linkedin.com/in/lionelsu/" target="_blank"  class="header-nav-menu-list__link">Linkedin
+                            <img src="./assets/image/seta/seta.svg" class="header-nav-menu__image" alt="seta">
+                        </a>
+                    </li>
+
+                    <li class="header-nav-menu-list">
+                        <a href="#" class="header-nav-menu-list__link">Instagram
+                            <img src="./assets/image/seta/seta.svg" class="header-nav-menu__image" alt="seta">
+                        </a>
+                    </li>
+
+                    <li class="header-nav-menu-list">
+                        <a href="#" class="header-nav-menu-list__link">Curriculo
+                            <img src="./assets/image/seta/seta.svg" class="header-nav-menu__image" alt="seta">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <img class="header__avatar" src="./assets/image/avatar/1653778993478.png" alt="foto pessoal">
+        </section>
     </header>
 
-    <main class="main">
+    <section class="about" id="about__link">
             <h3>Sobre mim</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
@@ -61,52 +88,52 @@
             </p>
 
             <img>
+    </section>
 
+    <main class="main">
         <section>
             <h4>Skills</h4>
             <h4>Hobbies</h4>
             <h4>Formação acadêmica</h4>
         </section>
-
-        <section>
-            <h4>Experiência profissional</h4>
-        </section>
-
-        
-
-        <section>
-            <h4>Contato</h4>
-            <p>
-            Quer entrar em contato comigo?
-            Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
-            </p>
-
-            <fieldset>
-                <form action="#">
-
-                    <div>
-                        <label for="name">Nome</label>
-                        <input type="text" name="name" id="name" required>
-                    </div>
-                    <div>
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" required>
-                    </div>
-                    <div>
-                        <label for="assunto">Assunto</label>
-                        <input type="text" name="assunto" id="assunto" required>
-                        <textarea name="message" id="assunto" cols="30" rows="10" required></textarea>
-                    </div>
-
-                    <div>
-                        <input type="submit" value="Submit">
-                    </div>
-
-                </form>
-            </fieldset>
-
-        </section>
     </main>
+
+    <section>
+        <h4>Experiência profissional</h4>
+    </section>
+
+    <section>
+        <h4>Contato</h4>
+        <p>
+        Quer entrar em contato comigo?
+        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+        </p>
+
+        <fieldset>
+            <form action="#">
+
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="assunto">Assunto</label>
+                    <input type="text" name="assunto" id="assunto" required>
+                    <textarea name="message" id="assunto" cols="30" rows="10" required></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+
+            </form>
+        </fieldset>
+
+    </section>
 
     <footer class="footer">
         <p>Desenvolvido com amor por Lionel Miranda</p>
