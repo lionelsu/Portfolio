@@ -1,0 +1,30 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: var(--color-gray);
+    padding: 64px 39.0rem 64px 0;
+}
+
+.about__h2 {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.about__text {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+
+
+.about-zcolor::before {
+    content: '';
+    position: absolute;
+    background: #EAF2FD;
+    width: 100%;
+    height: 33.3rem;
+    
+    left: 0;
+    z-index: -1;
+}
