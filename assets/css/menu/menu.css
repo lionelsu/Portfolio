@@ -1,4 +1,10 @@
+.menu-fixed {
+    
+}
+
+
 .menu {
+    position: fixed;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -6,7 +12,13 @@
     justify-content:space-between;
     flex-wrap: wrap;
     grid-area: header;
+
+    background: var(--color-white);
+    width: 1040px;
+    padding-top: 16px;
+    top: 0;
 }
+
 
 .menu__link, .menu-email__link {
     text-decoration: none;
