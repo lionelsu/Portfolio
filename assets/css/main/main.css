@@ -6,6 +6,11 @@
 .main-block-card {
     display: grid;
     gap: 3.2rem;
+    
+}
+
+.main-block-card--padding {
+    padding: 3.2rem 0;
 }
 
 .main-cards {
@@ -22,7 +27,6 @@
 }
 
 .main-skills {
-    position: relative;
     border-radius: .8rem;
     text-align: center;
 }
@@ -33,15 +37,54 @@
 }
 
 .main-skills__text {
-    position: absolute;
     background: var(--color-05bright-blue);
     color: var(--color-gray);
     border-radius: .5rem;
     font-weight: 700;
     font-size: 1.6rem;
     line-height: 1.9rem;
+}
+
+.main-cards-academic {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 36.8rem);
+    gap: 1.6rem;
+}
+
+.main-skills-academic {
+    color: var(--color-gray);
+    width: 36.8rem;
+    height: 36.8rem;
+}
+
+.main-skills-academic-img {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.main-skills-academic-img__img {
+    width: 36.8rem;
+    height: 26.8rem;
+}
+
+.main-skills-academic__text {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+}
+
+.main-skills-academic__date {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+
+.main-zcolor::before {
+    content: '';
+    position: absolute;
+    background: var(--color-bright-blue);
     width: 100%;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 31em;
+    left: 0;
+    z-index: -1;
 }
