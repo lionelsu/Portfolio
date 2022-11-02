@@ -21,7 +21,7 @@
 .about-zcolor::before {
     content: '';
     position: absolute;
-    background: #EAF2FD;
+    background: var(--color-bright-blue);
     width: 100%;
     height: 33.3rem;
     

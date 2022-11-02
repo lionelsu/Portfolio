@@ -22,10 +22,26 @@
 }
 
 .main-skills {
+    position: relative;
     border-radius: .8rem;
+    text-align: center;
 }
 
 .main-skills__hobbie {
     width: 17.6rem;
     height: 17.6rem;
+}
+
+.main-skills__text {
+    position: absolute;
+    background: var(--color-05bright-blue);
+    color: var(--color-gray);
+    border-radius: .5rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    width: 100%;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

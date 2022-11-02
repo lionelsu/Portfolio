@@ -16,6 +16,7 @@
     --color-white: rgba(255, 255, 255, 1);
     --color-beige: rgba(245, 245, 245, 1);
     --color-bright-blue: rgba(234, 242, 253, 1);
+    --color-05bright-blue: rgba(234, 242, 253, 0.5);
 }
 
 html {
