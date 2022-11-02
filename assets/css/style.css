@@ -21,6 +21,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5.0rem;
 }
 
 body {
@@ -35,6 +36,6 @@ body {
     grid-template-rows: auto auto auto auto auto;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 32px;
+    padding: 16px;
     gap: 32px;
 }
