@@ -82,3 +82,11 @@
     text-decoration: none;
     padding: 1.6rem;
 }
+
+.btn-border, .btn2-border {
+    transition: background .2s;
+}
+
+.btn-border:hover, .btn2-border:hover {
+    background: var(--color-04bright-blue);
+}
