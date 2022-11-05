@@ -219,42 +219,47 @@
         </div>
     </section>
 
-    <section>
-        <h2>Contato</h2>
-        <p>
-        Quer entrar em contato comigo?
-        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
-        </p>
-
-        <fieldset>
-            <form action="#">
-
-                <div>
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name" required>
-                </div>
-                <div>
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div>
-                    <label for="assunto">Assunto</label>
-                    <input type="text" name="assunto" id="assunto" required>
-                    <textarea name="message" id="assunto" cols="30" rows="10" required></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" value="Submit">
-                </div>
-
-            </form>
-        </fieldset>
-
-    </section>
-
     <footer class="footer">
-        <p>Desenvolvido com amor por Lionel Miranda</p>
-        <p>2022</p>
+        <div class="contact-row">
+            <img src="./assets/image/icons/contato.svg" class="contact__image" alt="imagem de telefone">
+            <div>
+                <div class="contact-title">
+                    <h2 class="contact__h2">Contato</h2>
+                    <p class="contact__text">Quer entrar em contato comigo?<br>
+                    Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+                </div>
+                <fieldset class="contact-fields-container">
+                    <form action="#" class="contact-fields-cow">
+
+                        <div class="contact-fields-name">
+                            <p>Nome</p>
+                            <label for="name"></label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="contact-fields-name">
+                            <p>E-mail</p>
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="contact-fields-cow">
+                            <label for="assunto"></label>
+                            <input type="text" name="assunto" placeholder="Assunto" id="assunto" required>
+                            <textarea name="message" id="assunto" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                        </div>
+
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+
+        <div>
+            <p>Desenvolvido com amor por Lionel Miranda</p>
+            <p>2022</p>
+        </div>
     </footer>
 </body>
 </html>

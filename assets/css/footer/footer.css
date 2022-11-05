@@ -1,0 +1,50 @@
+.footer {
+    border: 1px solid red;
+}
+
+.contact-row {
+    display: flex;
+    padding: 12.8rem 0 6.4rem 0;
+    background: var(--color-05bright-blue);
+    gap: 1.6rem;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.2rem;
+    gap: .8rem;
+}
+
+.contact__h2 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    color: var(--color-gray);
+}
+
+.contact__text {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--color-gray);
+}
+
+.contact-fields-container {
+    width: 100%;
+
+}
+
+.contact-fields-cow {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem ;
+}
+
+.contact-fields-name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--color-white);
+    padding: .8rem  1.2rem .8rem 1.2rem;
+}

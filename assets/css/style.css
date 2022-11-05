@@ -3,6 +3,7 @@
 @import url("./about/about.css");
 @import url("./main/main.css");
 @import url("./projecto/projects.css");
+@import url("./footer/footer.css");
 
 * {
     margin: 0;
