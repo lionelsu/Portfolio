@@ -34,6 +34,7 @@
 .contact-fields-cow {
     display: flex;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
     gap: 3.2rem;
 }
 
@@ -67,3 +68,56 @@
     outline: none;
 }
 
+.contact__subject {
+    border: none;
+    font-size: 1.6rem;
+    line-height: 2.0rem;
+    padding: 1.2rem 1.6rem;
+    border-radius: .5rem;
+    border-bottom: 1px solid #C8C8C8;
+    width: 100%;
+    gap: .4rem;
+    color: var(--color-gray);
+    outline: none;
+}
+
+.contact__subject::placeholder {
+    color: #A2A2A2;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact__image {
+    object-fit: cover;
+}
+
+textarea {
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-gray);
+}
+
+.btn-footer__decoration {
+    background: var(--color-blue);
+    border: 0.1rem solid var(--color-blue);
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--color-white);
+    transition: background .2s;
+}
+
+.btn-footer__decoration:hover {
+    background: var(--color-04bright-blue);
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.2rem;
+    gap: 1.0rem;
+    width: 100%;
+    background: var(--color-white);
+}

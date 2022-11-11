@@ -219,7 +219,7 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <div class="footer">
         <div class="contact-row">
             <img src="./assets/image/icons/contato.svg" class="contact__image" alt="imagem de telefone">
             <div>
@@ -240,21 +240,23 @@
                             <input type="email" name="email" id="email" required class="contact-input__text">
                         </div>
                         <div class="contact-fields-cow">
-                            <input type="text" name="assunto" placeholder="Assunto" id="assunto" required>
-                            <textarea name="message" id="assunto" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                            <input type="text" name="assunto" placeholder="Assunto" id="assunto" required class="contact__subject">
+                            <textarea name="message" id="assunto" cols="30" rows="10" placeholder="Mensagem" required class="contact__subject"></textarea>
                         </div>
 
                         <div>
-                            <input type="submit" value="Submit">
+                            <input type="submit" value="Enviar Mensagem" class="btn-footer__decoration">
                         </div>
 
                     </form>
                 </fieldset>
             </div>
         </div>
+    </div>
 
-        <div>
-            <p>Desenvolvido com amor por Lionel Miranda</p>
+    <footer>
+        <div class="footer-end">
+            <p>Desenvolvido com ❤️ por Lionel Miranda</p>
             <p>2022</p>
         </div>
     </footer>
