@@ -44,3 +44,27 @@ body {
     padding: 16px;
     gap: 32px;
 }
+
+.contact-fields-name--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.contact-fields-name--invalid .contact-input__text {
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.contact-fields-name--invalid .contact__title {
+    color: red;
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.contact-fields-name--invalid .input-mensagem-erro {
+    color: red;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}

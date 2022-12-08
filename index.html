@@ -8,6 +8,7 @@
     <title>Lionel | Portfólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="main.js" type="module" defer></script>
 </head>
 <body class="portfolio">
     
@@ -233,15 +234,17 @@
 
                         <div class="contact-fields-name">
                             <label for="name" class="contact__title">Nome</label>
-                            <input type="text" name="name" id="name" required class="contact-input__text" minlength="4" maxlength="50">
+                            <input type="text" name="name" id="name" required class="contact-input__text" minlength="4" maxlength="50" data-type="name">
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="contact-fields-name">
                             <label for="email" class="contact__title">E-mail</label>
-                            <input type="email" name="email" id="email" required class="contact-input__text">
+                            <input type="email" name="email" id="email" required class="contact-input__text" data-type="email">
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="contact-fields-cow">
-                            <input type="text" name="assunto" placeholder="Assunto" id="assunto" required class="contact__subject">
-                            <textarea name="message" id="assunto" cols="30" rows="10" placeholder="Mensagem" required class="contact__subject" maxlength="50"></textarea>
+                            <input type="text" name="assunto" placeholder="Assunto" id="assunto" required class="contact__subject" data-type="about">
+                            <textarea name="message" id="assunto" cols="30" rows="10" placeholder="Mensagem" required class="contact__subject" maxlength="300"></textarea>
                         </div>
 
                         <div>
